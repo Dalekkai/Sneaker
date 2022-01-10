@@ -147,6 +147,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe9c1164f9d0ef40974cbfed10f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  fieldSizeX: 4
+  fieldSizeZ: 4
+  input:
+    m_Name: look
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 20f56542-89f3-4502-8de8-1f338d759bd6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: d27c9b75-c3de-4e00-a7aa-384d2c0499b3
+      m_Path: <XRController>{LeftHand}/joystick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: look
+      m_Flags: 0
+    m_Flags: 0
 --- !u!114 &5634708695922839193
 MonoBehaviour:
   m_ObjectHideFlags: 0
